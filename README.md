@@ -2,7 +2,7 @@
 
 ### Using npm
 
-> npm install promise-db
+> npm install pipi-db
 
 Then, assuming you're using a module-compatible system (like webpack, Rollup etc):
 
@@ -10,8 +10,8 @@ Then, assuming you're using a module-compatible system (like webpack, Rollup etc
 import PromiseDB from 'pipi-db'
 
 function init() {
-  const dbName = 'promise-db'
-  const tableName = 'promise-db-table'
+  const dbName = 'pipi-db'
+  const tableName = ' pipi-db-table'
   const db = PromiseDB.getInstance<DbTableType>(dbName)
   db.createTable(tableName, [])
 }
