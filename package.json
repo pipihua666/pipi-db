@@ -1,5 +1,5 @@
 {
-  "name": "promise-db",
+  "name": "pipi-db",
   "version": "1.0.0",
   "description": "indexedDB based on promise encapsulation",
   "main": "dist/index.js",
@@ -46,5 +46,8 @@
   },
   "dependencies": {
     "typescript": "^5.2.2"
+  },
+  "directories": {
+    "test": "test"
   }
 }

@@ -7,7 +7,7 @@
 Then, assuming you're using a module-compatible system (like webpack, Rollup etc):
 
 ```typescript
-import PromiseDB from 'promise-db'
+import PromiseDB from 'pipi-db'
 
 function init() {
   const dbName = 'promise-db'
