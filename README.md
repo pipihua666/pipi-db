@@ -29,7 +29,7 @@ static getInstance<I extends Record<string, unknown>>(dbName: string, dbVersion?
 
 ### `createTable`
 
-Create an indexedDB table
+Create an indexedDB table and use the field with index 0 in tableFields as the primary key
 
 ```typescript
 createTable(tableName?: string, tableFields?: string[]): Promise<IDBDatabase>;
@@ -68,11 +68,11 @@ db.table(tableName)
 
 #### `read`
 
-Read table data, usually the key is id
+Query table data by primary key
 
 ```typescript
 db.table(tableName)
-  .read('id')
+  .read(primaryKey)
   .then(
     data => {
       console.log('Data read successfully:', data)

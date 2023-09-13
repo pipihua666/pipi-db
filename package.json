@@ -20,7 +20,8 @@
   "files": [
     "src",
     "dist",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "repository": {
     "type": "git",
