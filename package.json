@@ -1,6 +1,6 @@
 {
   "name": "pipi-db",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "indexedDB based on promise encapsulation",
   "main": "dist/index.js",
   "types": "dist/types",
